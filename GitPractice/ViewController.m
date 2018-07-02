@@ -18,6 +18,7 @@
     [super viewDidLoad];
     NSString *string = @"Hello Git";
     NSLog(@"%@",string);
+    NSLog(@"%@",[self uppercaseString:string]);
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -26,6 +27,9 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+- (NSString *)uppercaseString:(NSString *)string
+{
+    return [string uppercaseString];
+}
 
 @end
