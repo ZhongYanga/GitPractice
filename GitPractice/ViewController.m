@@ -16,6 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSString *string = @"Hello Git";
+    NSLog(@"%@",string);
     // Do any additional setup after loading the view, typically from a nib.
 }
 
