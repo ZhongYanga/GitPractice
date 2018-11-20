@@ -32,4 +32,9 @@
     return [string uppercaseString];
 }
 
+- (NSString *)lowwerSString:(NSString *)string
+{
+    return [string lowercaseString];
+}
+
 @end
