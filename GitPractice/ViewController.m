@@ -37,4 +37,9 @@
     return [string lowercaseString];
 }
 
+- (NSInteger)calculateSumWith:(NSInteger)a number:(NSInteger)b
+{
+    return a + b;
+}
+
 @end
