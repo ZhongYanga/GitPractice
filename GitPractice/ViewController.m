@@ -19,6 +19,7 @@
     NSString *string = @"Hello Git";
     NSLog(@"%@",string);
     NSLog(@"%@",[self uppercaseString:string]);
+    NSLog(@"%@",[self lowercaseString:string]);
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -31,10 +32,13 @@
 {
     return [string uppercaseString];
 }
-
-- (NSString *)lowwerSString:(NSString *)string
+- (NSString *)lowercaseString:(NSString *)string
 {
     return [string lowercaseString];
 }
 
+- (NSArray *)reverseArray:(NSArray *)array
+{
+    return [[array reverseObjectEnumerator] allObjects];
+}
 @end
