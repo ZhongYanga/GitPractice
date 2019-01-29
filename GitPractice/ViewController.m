@@ -36,4 +36,9 @@
 {
     return [string lowercaseString];
 }
+
+- (NSArray *)reverseArray:(NSArray *)array
+{
+    return [[array reverseObjectEnumerator] allObjects];
+}
 @end
